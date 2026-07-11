@@ -35,6 +35,9 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 2
+  - zensical.extensions.macros:
+      module_name: macros
+      render_by_default: true
 
 extra_css:
   - css/infobox.css

@@ -1,25 +1,12 @@
 ---
-icon: material/{%- if zon["material"] -%} alpha-m-box-outline {%- else -%} alpha-i-box-outline {%- endif %}
+icon: {{ item.icon }}
 ---
 
-# {{ name }}
+# {{ item.name }}
 
-!!! infobox "{{ name }}"
+!!! infobox "{{ item.name }}"
 
-    ![Image title]({{ cfg.image_root }}/{{ relative_to_source_no_suffix.with_suffix(".png").as_posix() }}){ width="300" align=left }
-
-    | | |
-    |:-|-:|
-    |**ID**| {{ id }} |
-{%- if zon["tags"] %}
-    |**Tags**| {% for tag in zon["tags"]|sort %} {{ tag }}{% if not loop.last %},{% endif %} {% endfor %} |
-{%- endif -%}
-{%- if zon["material"] %}
-    |**Durability**| {{ zon["material"]["durability"] }} |
-    |**Mass Damage**| {{ zon["material"]["massDamage"] }} |
-    |**Hardness Damage**| {{ zon["material"]["hardnessDamage"] }} |
-    |**Swing Speed**| {{ zon["material"]["swingSpeed"] }} |
-{%- endif %}
+{{ '{{ item_infobox(' -}}"{{ item.id }}"{{- ') }}' }}
 
 ## About
 
