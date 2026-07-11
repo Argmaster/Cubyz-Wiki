@@ -1,17 +1,13 @@
 ---
 icon: material/home
-tags:
-  - features
-  - download
 ---
 
 # Cubyz Wiki
 
-![Cubyz 0.3.0 Release Logo](/images/releases/0.3.0.png)
-
+![Cubyz 0.3.0 Release Logo](images/releases/0.3.0.png)
 ## About Cubyz
 
-**Cubyz** is a 3D voxel sandbox game game, featuring innovative mechanics and limitless possibilities.
+**Cubyz** is a 3D voxel sandbox game, featuring innovative mechanics and limitless possibilities.
 
 ---
 
@@ -23,7 +19,7 @@ tags:
 
     Play with huge render distances without the huge performance cost.
 
-    See up to 3000 blocks ahead of you!
+    See up to 2400 blocks ahead of you!
 
 - :material-package:{ .lg .middle } 3D Chunks
 
@@ -46,7 +42,6 @@ tags:
 
 </div>
 
-![Astr0_Steve's World Screenshot](/images/screenshots/screenshot1.png)
 
 <style>
     p:has(.download-button) {
