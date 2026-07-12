@@ -1,0 +1,25 @@
+---
+icon: material/box-shadow
+---
+
+# Slate Pillar
+
+!!! infobox "Slate Pillar"
+
+{{ block_infobox("cubyz:slate/pillar") }}
+
+## About
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## Obtaining
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## Usage
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## History
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.

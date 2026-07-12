@@ -1,0 +1,25 @@
+---
+icon: material/box-shadow
+---
+
+# Sbb Child Brown
+
+!!! infobox "Sbb Child Brown"
+
+{{ block_infobox("cubyz:sbb/child/brown") }}
+
+## About
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## Obtaining
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## Usage
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## History
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.

@@ -1,0 +1,25 @@
+---
+icon: material/box-shadow
+---
+
+# Cloth Block Purple
+
+!!! infobox "Cloth Block Purple"
+
+{{ block_infobox("cubyz:cloth/block/purple") }}
+
+## About
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## Obtaining
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## Usage
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.
+
+## History
+
+> This section is a stub. You can help the Cubyz Wiki by expanding it.

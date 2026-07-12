@@ -6,12 +6,7 @@ icon: material/alpha-i-box-outline
 
 !!! infobox "Apple"
 
-    ![Image title](https://raw.githubusercontent.com/PixelGuys/Cubyz/refs/tags/0.2.0/assets/cubyz/items/textures/apple.png){ width="300" align=left }
-
-    | | |
-    |-|-|
-    |**ID**|cubyz:apple|
-
+{{ item_infobox("cubyz:apple") }}
 
 ## About
 
