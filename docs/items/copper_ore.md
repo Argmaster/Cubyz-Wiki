@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-m-box-outline
+icon: material/alpha-i-box-outline
 ---
 
-# Copper Ingot
+# Copper Ore
 
-!!! infobox "Copper Ingot"
+!!! infobox "Copper Ore"
 
-{{ item_infobox("cubyz:copper_ingot") }}
+{{ item_infobox("cubyz:copper_ore") }}
+
+
+
+!!! infobox "Copper Ore (block)"
+
+{{ block_infobox("cubyz:copper_ore") }}
 
 
 
