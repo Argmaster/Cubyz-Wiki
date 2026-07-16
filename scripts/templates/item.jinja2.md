@@ -10,7 +10,7 @@ icon: {{ item.icon }}
 
 {% if item.block %}
 
-!!! infobox "{{ item.block.name }}"
+!!! infobox "{{ item.block.name }} (block)"
 
 {{ '{{ block_infobox(' -}}"{{ item.block.id }}"{{- ') }}' }}
 

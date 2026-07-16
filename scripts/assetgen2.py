@@ -44,10 +44,17 @@ def main(args: list[str]) -> None:
 
 
 def generate_files(db: AssetDatabase) -> None:
-    for assets in [db.items, db.blocks]:
+    for assets in cast("tuple[dict[Id, Asset], ...]", (db.items, db.blocks)):
         for asset in assets.values():
             output = asset.render()
-            asset.destination_path.write_text(output, encoding="utf-8")
+
+            destination_path = asset.destination_path
+            # We don't want to overwrite existing assets as they might already contain manually edited content.
+            if destination_path.exists():
+                continue
+
+            destination_path.parent.mkdir(parents=True, exist_ok=True)
+            destination_path.write_text(output, encoding="utf-8")
 
 
 def parse_args(args: list[str]) -> CliArgs:
@@ -281,15 +288,20 @@ class Asset(AssetGenModel):
 
     @property
     def file_name(self) -> str:
-        return self.self_id.path.replace("/", "_")
+        """File name without extension."""
+        return self.self_id.path.split("/")[-1]
+
+    @property
+    def path_no_extension(self) -> str:
+        return self.category + "/" + self.self_id.path
 
     @property
     def destination_path(self) -> Path:
-        return DOCS_FOLDER / self.category / f"{self.file_name}.md"
+        return DOCS_FOLDER / f"{self.path_no_extension}.md"
 
     @property
     def wiki_link(self) -> str:
-        return f"/{self.category}/{self.file_name}.html"
+        return f"/{self.path_no_extension}.html"
 
 
 class Item(Asset):
