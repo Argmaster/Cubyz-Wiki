@@ -19,22 +19,22 @@ Please view reference textures below to ease the process.
 ## Reference Textures
 
 <figure markdown="span">
-  ![Block uv template faces](/images/addons/Block_uv_template_faces.png){ width="300" }
+  ![Block uv template faces](images/Block_uv_template_faces.png){ width="300" }
   <figcaption>Reference texture with word based mapping</figcaption>
 </figure>
 
 <figure markdown="span">
-  ![Block uv template numbers](/images/addons/Block_uv_template_numbers.png){ width="300" }
+  ![Block uv template numbers](images/Block_uv_template_numbers.png){ width="300" }
   <figcaption>Reference texture with number based mapping</figcaption>
 </figure>
 
 <figure markdown="span">
-  ![Block uv template faces](/images/addons/uv_mapping_blender.png){ width="300" }
+  ![Block uv template faces](images/uv_mapping_blender.png){ width="300" }
   <figcaption>UV mapping for sign model viewed in Blender 4.1</figcaption>
 </figure>
 
 <figure markdown="span">
-  ![Block uv template numbers](/images/addons/uv_mapping_blender_with_reference.png){ width="300" }
+  ![Block uv template numbers](images/uv_mapping_blender_with_reference.png){ width="300" }
   <figcaption>UV mapping for sign model viewed in Blender 4.1 with reference texture in the background</figcaption>
 </figure>
 
