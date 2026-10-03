@@ -10,6 +10,8 @@ To install an addon you first have to download an addon. You can find a public a
 
 Once you have your addon file, pick a Cubyz world to install it to, then open that Cubyz World's directory. You can find a folder button near the world name on the world selection screen in Cubyz that will open the world directory for you.
 
+![Block uv template faces](images/folder_icon.png){ width="300" }
+
 Once in your worlds directory, enter the `assets` folder and place your downloaded addon file into there. After that **extract** into a folder.
 
 Then load your world normally and the addon should be applied. If you have any issues, you can ask for help on our [Discord Server](https://discord.com/invite/stBh54hF7U).
